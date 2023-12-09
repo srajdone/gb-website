@@ -1,0 +1,82 @@
+/* styles.css */
+
+/* Basic reset for styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation Bar Styles */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Hero Section Styles */
+.hero {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #e9ecef;
+}
+
+/* Services Section Styles */
+.services {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.service {
+    background: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Testimonials Section Styles */
+.testimonials {
+    padding: 20px;
+    background-color: #fdfdfe;
+}
+
+/* Pricing Section Styles */
+.pricing {
+    padding: 20px;
+    text-align: center;
+}
+
+/* FAQ Section Styles */
+.faq {
+    padding: 20px;
+    background-color: #f6f6f6;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Add additional styles below as needed */
